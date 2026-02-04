@@ -1,7 +1,8 @@
 <div align="center">
 
 # 🎵 SongEcho
-## Towards Cover Song Generation via Instance-Adaptive Element-wise Linear Modulation
+## Towards Cover Song Generation via 
+## Instance-Adaptive Element-wise Linear Modulation
 
 
 [![Demo Page](https://img.shields.io/badge/Project-Demo_Page-blue?logo=github&logoColor=white)](https://vvanonymousvv.github.io/SongEcho_updated/)
