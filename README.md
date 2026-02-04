@@ -121,7 +121,7 @@ python inference.py \
 2. **Launch:** Run the script to start the training process.
 
 ```bash
-bash train.sh
+sh train.sh
 ```
 
 ## 📖 Citation
