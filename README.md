@@ -18,7 +18,7 @@ SongEcho achieves our cover song generation by simultaneously synthesizing new v
 
 ### ✨ Key Innovations
 
-IA-EiLM Framework: Integrates EiLM for precise temporal alignment (superior to FiLM) and IACR for instance-adaptive condition refinement.
+IA-EiLM Framework: Integrates EiLM for precise temporal alignment and IACR for instance-adaptive condition refinement.
 
 Suno70k Dataset: A newly constructed open-source dataset containing 70k high-quality songs with comprehensive annotations.
 
@@ -89,10 +89,6 @@ python 2_extract_f0.py
 python 3_convert2hf_dataset_split.py --data_dir ./suno70k/audio --repeat_count 1 --output_name suno70k
 
 ```
-
-Here is the updated **Inference** and **Training** section with the modified paths and scripts.
-
-```markdown
 ---
 
 ## 🚀 Inference
