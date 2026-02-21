@@ -3,13 +3,13 @@
 # 🎵 SongEcho
 ## Towards Cover Song Generation via Instance-Adaptive Element-wise Linear Modulation
 
-**Sifei Li**$^{1,2}$, **Yang Li**$^{1,2}$, **Zizhou Wang**$^{2}$, **Yuxin Zhang**$^{1,2}$, **Fuzhang Wu**$^{3}$, **Oliver Deussen**$^{4}$, **Tong-Yee Lee**$^{5}$, **Weiming Dong**$^{1,2*}$
+**Sifei Li**<sup>1,2</sup>, **Yang Li**<sup>1,2</sup>, **Zizhou Wang**<sup>2</sup>, **Yuxin Zhang**<sup>1,2</sup>, **Fuzhang Wu**<sup>3</sup>, **Oliver Deussen**<sup>4</sup>, **Tong-Yee Lee**<sup>5</sup>, **Weiming Dong**<sup>1,2*</sup>
 
-$^{1}$MAIS, Institute of Automation, Chinese Academy of Sciences  
-$^{2}$School of Artificial Intelligence, University of Chinese Academy of Sciences  
-$^{3}$ISRC, Institute of Software, Chinese Academy of Sciences  
-$^{4}$University of Konstanz  
-$^{5}$National Cheng-Kung University
+<sup>1</sup>MAIS, Institute of Automation, Chinese Academy of Sciences  
+<sup>2</sup>School of Artificial Intelligence, University of Chinese Academy of Sciences  
+<sup>3</sup>ISRC, Institute of Software, Chinese Academy of Sciences  
+<sup>4</sup>University of Konstanz  
+<sup>5</sup>National Cheng-Kung University
 
 `{lisifei2022, yangli2022, weiming.dong}@ia.ac.cn`
 
@@ -149,7 +149,7 @@ If you find **SongEcho** useful for your research, please cite our paper:
 }
 ```
 
-## 🏗️Acknowledgements
+### Acknowledgements
 Our implementation is built upon the ACE-Step framework and Gtsinger:
 ```bibtex
 @misc{gong2025acestep,
