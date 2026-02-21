@@ -11,7 +11,7 @@
 <sup>4</sup>University of Konstanz  
 <sup>5</sup>National Cheng-Kung University
 
-`{lisifei2022, yangli2022, weiming.dong}@ia.ac.cn`
+`{lisifei2022, weiming.dong}@ia.ac.cn`
 
 <br>
 
