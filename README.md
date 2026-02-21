@@ -1,8 +1,19 @@
 <div align="center">
 
 # 🎵 SongEcho
-# Towards Cover Song Generation via Instance-Adaptive Element-wise Linear Modulation
+## Towards Cover Song Generation via Instance-Adaptive Element-wise Linear Modulation
 
+**Sifei Li**$^{1,2}$, **Yang Li**$^{1,2}$, **Zizhou Wang**$^{2}$, **Yuxin Zhang**$^{1,2}$, **Fuzhang Wu**$^{3}$, **Oliver Deussen**$^{4}$, **Tong-Yee Lee**$^{5}$, **Weiming Dong**$^{1,2*}$
+
+$^{1}$MAIS, Institute of Automation, Chinese Academy of Sciences  
+$^{2}$School of Artificial Intelligence, University of Chinese Academy of Sciences  
+$^{3}$ISRC, Institute of Software, Chinese Academy of Sciences  
+$^{4}$University of Konstanz  
+$^{5}$National Cheng-Kung University
+
+`{lisifei2022, yangli2022, weiming.dong}@ia.ac.cn`
+
+<br>
 
 [![Demo Page](https://img.shields.io/badge/Project-Demo_Page-blue?logo=github&logoColor=white)](https://vvanonymousvv.github.io/SongEcho_updated/)
 [![ICLR Paper](https://img.shields.io/badge/Paper-ICLR_2026-b31b1b?logo=arxiv&logoColor=white)](https://openreview.net/forum?id=TEKOayiQg2)
@@ -126,24 +137,34 @@ sh train.sh
 
 ## 📖 Citation
 
-If you find our work or the **Suno70k** dataset useful, please consider citing:
+If you find **SongEcho** useful for your research, please cite our paper:
 
+```bibtex
+@inproceedings{li2026songecho,
+  title={{SongEcho}: Cover Song Generation via Instance-Adaptive Element-wise Linear Modulation},
+  author={Li, Sifei and Li, Yang  and Wang, Zizhou and Zhang, Yuxin and Wu, Fuzhang and Deussen, Oliver and Lee, Tong-Yee and Dong, Weiming},
+  booktitle={Proceedings of the International Conference on Learning Representations (ICLR)},
+  year={2026},
+  location={Rio de Janeiro, Brazil}
+}
+```
+
+## 🏗️Acknowledgements
+Our implementation is built upon the ACE-Step framework and Gtsinger:
 ```bibtex
 @misc{gong2025acestep,
     title={ACE-Step: A Step Towards Music Generation Foundation Model},
-    author={Junmin Gong, Wenxiao Zhao, Sen Wang, Shengyuan Xu, Jing Guo}, 
+    author={Junmin Gong and Wenxiao Zhao and Sen Wang and Shengyuan Xu and Jing Guo}, 
     howpublished={\url{[https://github.com/ace-step/ACE-Step](https://github.com/ace-step/ACE-Step)}},
     year={2025},
     note={GitHub repository}
 }
 
 @article{zhang2024gtsinger,
-  title={Gtsinger: A global multi-technique singing corpus with realistic music scores for all singing tasks},
-  author={Zhang, Yu and Pan, Changhao and Guo, Wenxiang and Li, Ruiqi and Zhu, Zhiyuan and Wang, Jialei and Xu, Wenhao and Lu, Jingyu and Hong, Zhiqing and Wang, Chuxin and others},
-  journal={arXiv preprint arXiv:2409.13832},
-  year={2024}
+    title={Gtsinger: A global multi-technique singing corpus with realistic music scores for all singing tasks},
+    author={Zhang, Yu and Pan, Changhao and Guo, Wenxiang and Li, Ruiqi and Zhu, Zhiyuan and Wang, Jialei and Xu, Wenhao and Lu, Jingyu and Hong, Zhiqing and Wang, Chuxin and others},
+    journal={arXiv preprint arXiv:2409.13832},
+    year={2024}
 }
-
 ```
-
 ---
