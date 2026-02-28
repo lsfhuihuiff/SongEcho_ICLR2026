@@ -17,7 +17,7 @@ from utils.rmvpe import RMVPE
 import math
 import mir_eval
 
-pe_ckpt = "checkpoints/melody_encoder.pt"
+pe_ckpt = "checkpoints/rmvpe_model.pt"
 rmvpe = None
 # sr = 48000
 # hop_size = 256 #和原本24000-128最后的token数目相同，ROSVOT的处理

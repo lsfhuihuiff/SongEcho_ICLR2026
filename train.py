@@ -161,7 +161,7 @@ class Pipeline(LightningModule):
         self.text_tokenizer = acestep_pipeline.text_tokenizer
 
 
-        self.rmvpe = RMVPE("checkpoints/melody_encoder.pt", device=f'cuda:{self.local_rank}')
+        self.rmvpe = RMVPE("checkpoints/rmvpe_model.pt", device=f'cuda:{self.local_rank}')
 
         self.melody_encoder = MelodyEncoder().float().cpu()
         if pt_path is not None:

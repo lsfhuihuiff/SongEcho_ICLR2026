@@ -417,7 +417,7 @@ def main(args):
     )
     model.to(device=args.device)
     model.eval()
-    rmvpe = RMVPE("checkpoints/melody_encoder.pt", device=f'cuda')
+    rmvpe = RMVPE("checkpoints/rmvpe_model.pt", device=f'cuda')
 
     # Load validation dataset
     dataloader = model.val_dataloader()
